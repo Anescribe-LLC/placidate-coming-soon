@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placidate - Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 700px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #2c5364 0%, #0f2027 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+        }
+        
+        .tagline {
+            font-size: 22px;
+            color: #666;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        
+        .patent-badge {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            font-size: 14px;
+            border: 2px solid #2e7d32;
+        }
+        
+        .description {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+            text-align: left;
+        }
+        
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #2c5364;
+        }
+        
+        .feature-title {
+            font-weight: 600;
+            color: #2c5364;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+        
+        .feature-text {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .benefits {
+            background: #f0f4f8;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        
+        .benefits-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2c5364;
+            margin-bottom: 15px;
+        }
+        
+        .benefits-list {
+            text-align: left;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .status {
+            display: inline-block;
+            background: #ffeaa7;
+            color: #2d3436;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            margin: 30px 0;
+            font-size: 16px;
+        }
+        
+        .contact {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .contact-text {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .contact-email {
+            color: #2c5364;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .contact-email:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 25px;
+            }
+            
+            .logo {
+                font-size: 36px;
+            }
+            
+            .tagline {
+                font-size: 18px;
+            }
+            
+            .description {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Placidate</div>
+        <div class="tagline">The Future of EMR Authentication</div>
+        <div class="patent-badge">🔒 Patent Pending</div>
+        
+        <div class="description">
+            Say goodbye to forgotten passwords and time-consuming logins. Placidate revolutionizes Electronic Medical Record access through secure, instant authentication using the back of your driver's license or government issued ID.
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-title">Instant Access</div>
+                <div class="feature-text">Scan your ID and gain immediate EMR access—no passwords to remember or reset</div>
+            </div>
+            <div class="feature">
+                <div class="feature-title">Enhanced Security</div>
+                <div class="feature-text">Physical credential verification provides superior security over traditional passwords</div>
+            </div>
+            <div class="feature">
+                <div class="feature-title">HIPAA Compliant</div>
+                <div class="feature-text">Designed to meet and exceed healthcare security requirements</div>
+            </div>
+        </div>
+        
+        <div class="benefits">
+            <div class="benefits-title">Why Healthcare Providers Choose Placidate</div>
+            <div class="benefits-list">
+                ✓ Eliminate password-related help desk tickets<br>
+                ✓ Reduce login time from minutes to seconds<br>
+                ✓ Improve workflow efficiency across your facility<br>
+                ✓ Meet compliance requirements with audit-ready logs
+            </div>
+        </div>
+        
+        <div class="status">🚀 Coming Soon</div>
+        
+        <div class="contact">
+            <div class="contact-text">Interested in bringing Placidate to your healthcare facility?</div>
+            <a href="mailto:info@placidate.com" class="contact-email">info@placidate.com</a>
+        </div>
+    </div>
+</body>
+</html>
