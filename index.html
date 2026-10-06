@@ -14,181 +14,280 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #06142f;
+            color: #dbe7f5;
             min-height: 100vh;
+        }
+
+        .page {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 42px 24px 60px;
+        }
+
+        .hero {
+            background: linear-gradient(145deg, #132644 0%, #1a3152 100%);
+            border: 1px solid rgba(144, 191, 229, 0.22);
+            border-radius: 26px;
+            padding: 54px 48px 48px;
+            box-shadow: 0 28px 70px rgba(0, 0, 0, 0.28);
+        }
+
+        .logo-wrap {
             display: flex;
-            align-items: center;
             justify-content: center;
-            padding: 20px;
-            color: #333;
+            margin-bottom: 26px;
         }
-        
-        .container {
-            background: white;
-            border-radius: 20px;
-            padding: 60px 40px;
-            max-width: 700px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-            text-align: center;
+
+        .logo-box {
+            background: #071743;
+            border-radius: 24px;
+            padding: 24px 34px;
+            border: 1px solid rgba(124, 183, 220, 0.22);
+            box-shadow:
+                0 0 0 10px rgba(255, 255, 255, 0.015),
+                0 16px 30px rgba(0, 0, 0, 0.2);
         }
-        
+
         .logo {
-            font-size: 48px;
-            font-weight: 700;
-            background: linear-gradient(135deg, #2c5364 0%, #0f2027 100%);
+            font-size: 46px;
+            font-weight: 650;
+            letter-spacing: -2px;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .logo .plac,
+        .logo .ate {
+            color: #f2f6fb;
+        }
+
+        .logo .id {
+            background: linear-gradient(180deg, #73d8ff 0%, #12a6d8 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+        }
+
+        .tagline {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 300;
+            color: #b8c9dc;
             margin-bottom: 20px;
         }
-        
-        .tagline {
-            font-size: 22px;
-            color: #666;
-            margin-bottom: 30px;
-            font-weight: 300;
-        }
-        
+
         .patent-badge {
-            display: inline-block;
-            background: #e8f5e9;
-            color: #2e7d32;
-            padding: 8px 20px;
-            border-radius: 20px;
-            font-weight: 600;
-            margin-bottom: 30px;
+            display: table;
+            margin: 0 auto 38px;
+            padding: 8px 18px;
+            border: 1px solid #58d2df;
+            border-radius: 999px;
+            color: #8be9ef;
+            background: rgba(46, 205, 215, 0.08);
             font-size: 14px;
-            border: 2px solid #2e7d32;
+            font-weight: 600;
         }
-        
+
         .description {
-            font-size: 18px;
-            line-height: 1.7;
-            color: #555;
-            margin-bottom: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 20px;
+            line-height: 1.65;
+            color: #d0dbea;
         }
-        
+
         .features {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 25px;
-            margin: 40px 0;
-            text-align: left;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+            margin: 48px 0 34px;
         }
-        
+
         .feature {
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 12px;
-            border-left: 4px solid #2c5364;
+            background: rgba(5, 20, 48, 0.48);
+            border: 1px solid rgba(144, 191, 229, 0.16);
+            border-radius: 18px;
+            padding: 26px;
+            min-height: 170px;
         }
-        
+
         .feature-title {
-            font-weight: 600;
-            color: #2c5364;
-            margin-bottom: 8px;
-            font-size: 16px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #8feaf1;
+            margin-bottom: 12px;
         }
-        
+
         .feature-text {
-            font-size: 14px;
-            color: #666;
-            line-height: 1.5;
-        }
-        
-        .benefits {
-            background: #f0f4f8;
-            padding: 30px;
-            border-radius: 12px;
-            margin: 30px 0;
-        }
-        
-        .benefits-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #2c5364;
-            margin-bottom: 15px;
-        }
-        
-        .benefits-list {
-            text-align: left;
-            color: #555;
-            line-height: 1.8;
-        }
-        
-        .status {
-            display: inline-block;
-            background: #e8f5e9;
-            color: #2e7d32;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-weight: 600;
-            margin: 30px 0 20px;
             font-size: 16px;
+            line-height: 1.6;
+            color: #c3d1e0;
+        }
+
+        .benefits {
+            background: rgba(6, 19, 46, 0.55);
+            border: 1px solid rgba(144, 191, 229, 0.16);
+            border-radius: 18px;
+            padding: 30px 32px;
+            margin: 20px 0 34px;
+        }
+
+        .benefits-title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+            color: #f0f5fa;
+            margin-bottom: 22px;
+        }
+
+        .benefits-list {
+            max-width: 720px;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 2;
+            color: #c5d4e4;
+        }
+
+        .status {
+            display: table;
+            margin: 0 auto 22px;
+            background: rgba(53, 210, 196, 0.10);
+            border: 1px solid #42cfc6;
+            color: #8cf1e9;
+            padding: 11px 24px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .button-wrap {
+            text-align: center;
         }
 
         .api-button {
             display: inline-block;
-            background: #2c5364;
+            background: linear-gradient(135deg, #1aa9d4, #1477a7);
             color: white;
-            padding: 14px 28px;
+            padding: 15px 30px;
             border-radius: 10px;
-            font-weight: 600;
+            font-weight: 700;
             text-decoration: none;
             font-size: 17px;
-            margin-bottom: 20px;
+            box-shadow: 0 10px 24px rgba(12, 125, 165, 0.28);
         }
 
         .api-button:hover {
-            background: #203a43;
+            filter: brightness(1.08);
         }
-        
+
         .contact {
-            margin-top: 30px;
-            padding-top: 30px;
-            border-top: 1px solid #e0e0e0;
+            margin-top: 38px;
+            padding-top: 28px;
+            border-top: 1px solid rgba(185, 210, 234, 0.14);
+            text-align: center;
         }
-        
+
         .contact-text {
-            color: #666;
-            margin-bottom: 15px;
+            color: #aebfd1;
+            margin-bottom: 10px;
+            font-size: 15px;
         }
-        
+
         .contact-email {
-            color: #2c5364;
+            color: #86e7ee;
             font-weight: 600;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 17px;
         }
-        
+
         .contact-email:hover {
             text-decoration: underline;
         }
 
-        .footer {
-            margin-top: 35px;
-            color: #888;
-            font-size: 13px;
+        footer {
+            text-align: center;
+            padding: 38px 10px 0;
+            color: #9fb2c8;
+            font-size: 14px;
+            line-height: 1.8;
         }
-        
-        @media (max-width: 600px) {
-            .container {
-                padding: 40px 25px;
+
+        .physician {
+            color: #7fe3e4;
+            font-weight: 700;
+            font-size: 17px;
+            margin-bottom: 16px;
+        }
+
+        .footer-links {
+            margin-top: 14px;
+        }
+
+        .footer-links a {
+            color: #c9d7e5;
+            text-decoration: none;
+            margin: 0 13px;
+        }
+
+        .footer-links a:hover {
+            color: #84e6ec;
+        }
+
+        @media (max-width: 800px) {
+            .hero {
+                padding: 42px 26px 36px;
             }
-            
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
             .logo {
-                font-size: 36px;
+                font-size: 38px;
             }
-            
-            .tagline {
+
+            .description {
                 font-size: 18px;
             }
-            
+        }
+
+        @media (max-width: 480px) {
+            .page {
+                padding: 18px 14px 36px;
+            }
+
+            .hero {
+                padding: 34px 20px 30px;
+                border-radius: 20px;
+            }
+
+            .logo-box {
+                padding: 20px 24px;
+            }
+
+            .logo {
+                font-size: 32px;
+            }
+
+            .tagline {
+                font-size: 20px;
+            }
+
             .description {
-                font-size: 16px;
+                font-size: 17px;
+            }
+
+            .benefits {
+                padding: 24px 20px;
+            }
+
+            .api-button {
+                width: 100%;
             }
         }
     </style>
@@ -196,93 +295,113 @@
 
 <body>
 
-    <div class="container">
+    <div class="page">
 
-        <div class="logo">PLACIDATE™</div>
+        <section class="hero">
 
-        <div class="tagline">
-            The Future of EMR Authentication
-        </div>
-
-        <div class="patent-badge">
-            🔒 Patent Pending
-        </div>
-        
-        <div class="description">
-            Say goodbye to forgotten passwords and time-consuming logins.
-            PLACIDATE™ enables healthcare providers to authenticate and recover
-            access to Electronic Medical Record systems by scanning the PDF417
-            barcode on the back of a U.S. driver's license or government-issued ID.
-        </div>
-        
-        <div class="features">
-
-            <div class="feature">
-                <div class="feature-title">Instant Access</div>
-                <div class="feature-text">
-                    Scan your ID and gain immediate EMR access—no passwords to remember or reset.
+            <div class="logo-wrap">
+                <div class="logo-box">
+                    <div class="logo">
+                        <span class="plac">plac</span><span class="id">ID</span><span class="ate">ate</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="feature">
-                <div class="feature-title">Account Recovery</div>
-                <div class="feature-text">
-                    Give healthcare providers another way to securely recover access to their account.
+            <div class="tagline">
+                The Future of EMR Authentication
+            </div>
+
+            <div class="patent-badge">
+                🔒 Patent Pending
+            </div>
+
+            <div class="description">
+                Say goodbye to forgotten passwords and time-consuming logins.
+                PLACIDATE™ enables healthcare providers to authenticate and recover
+                access to Electronic Medical Record systems by scanning the PDF417
+                barcode on the back of a U.S. driver's license or government-issued ID.
+            </div>
+
+            <div class="features">
+
+                <div class="feature">
+                    <div class="feature-title">Instant Access</div>
+                    <div class="feature-text">
+                        Scan your ID and gain immediate EMR access—no passwords to remember or reset.
+                    </div>
                 </div>
-            </div>
 
-            <div class="feature">
-                <div class="feature-title">Works Anywhere</div>
-                <div class="feature-text">
-                    Designed for U.S. government-issued IDs, mobile devices, and online or offline workflows.
+                <div class="feature">
+                    <div class="feature-title">Account Recovery</div>
+                    <div class="feature-text">
+                        Give healthcare providers another way to securely recover access to their account.
+                    </div>
                 </div>
+
+                <div class="feature">
+                    <div class="feature-title">Works Anywhere</div>
+                    <div class="feature-text">
+                        Designed for U.S. government-issued IDs, mobile devices, and online or offline workflows.
+                    </div>
+                </div>
+
             </div>
 
-        </div>
-        
-        <div class="benefits">
+            <div class="benefits">
 
-            <div class="benefits-title">
-                Add PLACIDATE™ to Your EMR
+                <div class="benefits-title">
+                    Add PLACIDATE™ to Your EMR
+                </div>
+
+                <div class="benefits-list">
+                    ✓ Authentication and account recovery for EMR users<br>
+                    ✓ Reduce password-related support and reset requests<br>
+                    ✓ Integrate PLACIDATE into existing login workflows<br>
+                    ✓ Available to EMR developers and healthcare organizations
+                </div>
+
             </div>
 
-            <div class="benefits-list">
-                ✓ Authentication and account recovery for EMR users<br>
-                ✓ Reduce password-related support and reset requests<br>
-                ✓ Integrate PLACIDATE into existing login workflows<br>
-                ✓ Available to EMR developers and healthcare organizations
+            <div class="status">
+                Early API Access Available Now
             </div>
 
-        </div>
-        
-        <div class="status">
-            Early API Access Available Now
-        </div>
-
-        <br>
-
-        <a
-            href="mailto:sales@anescribe.com?subject=PLACIDATE%20API%20Access"
-            class="api-button">
-            Request API Access
-        </a>
-        
-        <div class="contact">
-
-            <div class="contact-text">
-                Interested in adding PLACIDATE™ authentication to your EMR?
+            <div class="button-wrap">
+                <a
+                    href="mailto:sales@anescribe.com?subject=PLACIDATE%20API%20Access"
+                    class="api-button">
+                    Request API Access
+                </a>
             </div>
 
-            <a href="mailto:info@placidate.com" class="contact-email">
-                info@placidate.com
-            </a>
+            <div class="contact">
 
-        </div>
+                <div class="contact-text">
+                    Interested in adding PLACIDATE™ authentication to your EMR?
+                </div>
 
-        <div class="footer">
-            American physician-owned and -operated.<br>
+                <a href="mailto:info@placidate.com" class="contact-email">
+                    info@placidate.com
+                </a>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="physician">
+                American physician-owned and -operated.
+            </div>
+
             © 2026 Anescribe, LLC
-        </div>
+
+            <div class="footer-links">
+                <a href="/privacypolicy">Privacy Policy</a>
+                <a href="https://jeremyjfrederickmd.com" target="_blank" rel="noopener noreferrer">About</a>
+            </div>
+
+        </footer>
 
     </div>
 
