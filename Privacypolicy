@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Policy | PLACIDATE™</title>
+
+    <meta name="description" content="Privacy Policy for PLACIDATE™, an authentication and account-recovery service developed by Anescribe, L.L.C.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #06142f;
+            color: #dbe7f5;
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: linear-gradient(145deg, #132644 0%, #1a3152 100%);
+            border: 1px solid rgba(144, 191, 229, 0.22);
+            border-radius: 26px;
+            padding: 52px 54px;
+            box-shadow: 0 28px 70px rgba(0, 0, 0, 0.28);
+        }
+
+        .logo-link {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            margin-bottom: 28px;
+        }
+
+        .logo-box {
+            display: inline-block;
+            background: #071743;
+            border-radius: 22px;
+            padding: 20px 30px;
+            border: 1px solid rgba(124, 183, 220, 0.22);
+            box-shadow: 0 16px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            font-size: 42px;
+            font-weight: 650;
+            letter-spacing: -2px;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .logo .plac,
+        .logo .ate {
+            color: #f2f6fb;
+        }
+
+        .logo .id {
+            background: linear-gradient(180deg, #73d8ff 0%, #12a6d8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .logo-link:hover {
+            opacity: 0.88;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            color: #f2f6fb;
+            margin-bottom: 8px;
+        }
+
+        .effective {
+            text-align: center;
+            color: #9fb2c8;
+            font-size: 14px;
+            margin-bottom: 38px;
+        }
+
+        .intro,
+        .highlight {
+            background: rgba(6, 19, 46, 0.55);
+            border: 1px solid rgba(144, 191, 229, 0.16);
+            border-radius: 16px;
+            padding: 24px;
+            margin: 24px 0;
+        }
+
+        .highlight {
+            border-left: 4px solid #42cfc6;
+        }
+
+        h2 {
+            color: #8feaf1;
+            font-size: 21px;
+            margin-top: 38px;
+            margin-bottom: 14px;
+        }
+
+        p {
+            color: #c7d5e4;
+            font-size: 16px;
+            line-height: 1.75;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            margin: 8px 0 22px 25px;
+            color: #c7d5e4;
+        }
+
+        li {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 6px;
+        }
+
+        strong {
+            color: #f2f6fb;
+        }
+
+        a {
+            color: #86e7ee;
+        }
+
+        .contact {
+            margin-top: 18px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 48px;
+            padding-top: 28px;
+            border-top: 1px solid rgba(185, 210, 234, 0.14);
+            color: #9fb2c8;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        footer a {
+            color: #c9d7e5;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #84e6ec;
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 14px;
+            }
+
+            .container {
+                margin: 10px auto;
+                padding: 36px 22px;
+                border-radius: 20px;
+            }
+
+            .logo {
+                font-size: 33px;
+            }
+
+            .logo-box {
+                padding: 18px 22px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            h2 {
+                font-size: 19px;
+            }
+
+            p,
+            li {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <a href="/" class="logo-link" aria-label="Return to PLACIDATE home page">
+        <div class="logo-box">
+            <div class="logo">
+                <span class="plac">plac</span><span class="id">ID</span><span class="ate">ate</span>
+            </div>
+        </div>
+    </a>
+
+    <h1>Privacy Policy</h1>
+
+    <div class="effective">
+        Effective: October 6, 2026
+    </div>
+
+    <div class="intro">
+        <p>
+            At PLACIDATE™, privacy is built into the authentication process.
+            PLACIDATE™ is an authentication and account-recovery service developed
+            by Anescribe, L.L.C. for electronic medical record systems and other
+            authorized systems.
+        </p>
+
+        <p>
+            This Privacy Policy describes how PLACIDATE™ handles information when
+            a user scans the PDF417 barcode on a U.S. driver's license or other
+            supported government-issued identification.
+        </p>
+    </div>
+
+
+    <h2>1. Information Contained in Your ID Barcode</h2>
+
+    <p>
+        The PDF417 barcode on a government-issued ID may contain considerably more
+        information than PLACIDATE™ needs to provide authentication.
+    </p>
+
+    <p>
+        Depending on the issuing jurisdiction, that information may include a
+        person's name, full date of birth, residential address, physical
+        characteristics, driver's-license information, and other identifying data.
+    </p>
+
+    <div class="highlight">
+        <p>
+            PLACIDATE™ is designed to minimize the information retained from your
+            identification barcode.
+        </p>
+    </div>
+
+
+    <h2>2. Information PLACIDATE™ Retains</h2>
+
+    <p>
+        PLACIDATE™ is designed to retain only the information needed for its
+        authentication function:
+    </p>
+
+    <ul>
+        <li>Your name; and</li>
+        <li>Your birthday, limited to the <strong>month and day of birth</strong>.</li>
+    </ul>
+
+    <p>
+        PLACIDATE™ does <strong>not intentionally retain your year of birth.</strong>
+    </p>
+
+
+    <h2>3. Information We Do Not Intentionally Retain</h2>
+
+    <p>
+        PLACIDATE™ is designed not to retain information from your ID barcode
+        that is unnecessary for authentication, including:
+    </p>
+
+    <ul>
+        <li>Your residential or mailing address;</li>
+        <li>Your year of birth;</li>
+        <li>Your weight;</li>
+        <li>Hair or eye color;</li>
+        <li>Height or other physical descriptors;</li>
+        <li>Driver's-license number;</li>
+        <li>Driver's-license class, restrictions, or endorsements; or</li>
+        <li>Driving history, traffic violations, or similar driving-record information.</li>
+    </ul>
+
+    <p>
+        Some of these data elements may be read or processed transiently when the
+        barcode is scanned and decoded. PLACIDATE™ is designed to discard
+        information that is not required for its authentication function rather
+        than store it as part of your PLACIDATE™ record.
+    </p>
+
+
+    <h2>4. How We Use Retained Information</h2>
+
+    <p>
+        Information retained by PLACIDATE™ is used only to provide, maintain,
+        secure, troubleshoot, and improve authentication and account-recovery
+        services.
+    </p>
+
+    <p>
+        We do not sell information obtained through PLACIDATE™.
+    </p>
+
+    <p>
+        We do not use driver's-license or identification information for
+        advertising or third-party marketing.
+    </p>
+
+
+    <h2>5. EMRs and Other Integrating Systems</h2>
+
+    <p>
+        PLACIDATE™ may be integrated into an electronic medical record system,
+        website, application, or other service operated by another organization.
+    </p>
+
+    <p>
+        That organization may separately collect, store, or process information
+        about you. Its handling of information is governed by its own privacy
+        practices and is outside the control of PLACIDATE™ and Anescribe, L.L.C.
+    </p>
+
+    <p>
+        Organizations integrating PLACIDATE™ are responsible for appropriately
+        configuring and securing their own systems and for complying with applicable
+        privacy, security, employment, professional, and other legal requirements.
+    </p>
+
+
+    <h2>6. Data Security and Data Minimization</h2>
+
+    <p>
+        PLACIDATE™ uses technical and administrative safeguards designed to protect
+        information processed through the service.
+    </p>
+
+    <div class="highlight">
+        <p>
+            <strong>An important part of our security approach is data minimization:</strong>
+            information that PLACIDATE™ does not need is designed not to be retained.
+        </p>
+    </div>
+
+    <p>
+        No software, device, network, or data-processing system can guarantee
+        absolute security. Although PLACIDATE™ is designed to discard unnecessary
+        information contained in an identification barcode, we cannot guarantee
+        that such information could never be unintentionally exposed as the result
+        of a software defect, compromised device, unauthorized access, security
+        incident, third-party system, or other circumstance.
+    </p>
+
+    <p>
+        To the fullest extent permitted by applicable law, Anescribe, L.L.C. is
+        not responsible for unauthorized disclosure caused by an integrating
+        organization's systems, a user's device or conduct, third-party systems
+        outside our control, or other circumstances outside our reasonable control.
+    </p>
+
+    <p>
+        Nothing in this Privacy Policy limits any obligation or liability that
+        cannot lawfully be limited or excluded.
+    </p>
+
+
+    <h2>7. Data Retention</h2>
+
+    <p>
+        PLACIDATE™ retains information only for as long as reasonably necessary to
+        provide authentication and account-recovery services, maintain security and
+        audit records, support users, comply with applicable legal requirements,
+        resolve disputes, and protect the service against misuse.
+    </p>
+
+    <p>
+        Information that PLACIDATE™ is not designed to retain is not intentionally
+        maintained as part of the user's PLACIDATE™ authentication record.
+    </p>
+
+
+    <h2>8. No Sale of Personal Information</h2>
+
+    <p>
+        PLACIDATE™ does not sell personal information obtained through identification
+        scans.
+    </p>
+
+    <p>
+        Information obtained through PLACIDATE™ is not shared with third parties
+        for third-party advertising or marketing.
+    </p>
+
+
+    <h2>9. United States Only</h2>
+
+    <p>
+        PLACIDATE™ is intended for use in the United States with supported U.S.
+        government-issued identification.
+    </p>
+
+
+    <h2>10. Changes to This Privacy Policy</h2>
+
+    <p>
+        We may update this Privacy Policy as PLACIDATE™ develops. Updates will be
+        posted on this page with a revised effective date.
+    </p>
+
+
+    <h2>11. Contact Us</h2>
+
+    <div class="contact">
+        <p>
+            <strong>Anescribe, L.L.C.</strong><br>
+            82 Nassau St. #60594<br>
+            New York, NY 10038
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:sales@anescribe.com">sales@anescribe.com</a>
+        </p>
+    </div>
+
+
+    <footer>
+        American physician-owned and -operated.<br>
+        © 2026 Anescribe, LLC
+    </footer>
+
+</div>
+
+</body>
+</html>
